@@ -1,0 +1,15 @@
+[Unit]
+Description=Facetracker camera publisher
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/etc/facetracker
+ExecStart=/etc/facetracker/run.sh
+
+[Install]
+WantedBy=multi-user.target
