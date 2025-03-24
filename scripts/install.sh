@@ -2,13 +2,13 @@
 
 # Update
 echo "--- Updating system ---"
-apt update -y
+apt update
 
 # Install packages
-apt install git -y;
+apt install git -y
 
 echo "--- Install python's camera package ---"
-apt install python3-picamera2 -y;
+apt install python3-picamera2 -y
 
 echo "--- Clone git repo down ---"
 git clone https://github.com/Granther/facetracker-pi /etc/
