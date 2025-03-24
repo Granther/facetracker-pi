@@ -17,8 +17,8 @@ Instructions & Code for a DIY VR face tracker compatible with VRChat. At its cor
 ## Getting Started
 ### Prerequisites
 * Raspberry pi zero 2W (Or another single board computer, your milage may vary with others)
-* Compatible raspberry pi camera. The cameras can be found for cheap on Aliexpress
-* 8Gig+ Micro SD card
+* Compatible raspberry pi camera. As long as the camera says its compatible with the Pi Zero you should be good. This is the only one I have tested with [amz](https://a.co/d/4X2RNOo)
+* 4Gig+ Micro SD card
 * Way to mount this getup to your VR headset, ideally with 3D printed parts
 * Some imagination, this won't be perfect
 
@@ -29,26 +29,26 @@ Instructions & Code for a DIY VR face tracker compatible with VRChat. At its cor
 3. Hit **'Next -> Edit Settings'**. Changes all these settings to your liking. Ie, device name, password and username you will remember. **!IMPORTANT!** Wifi network must be 2.4Ghz as the Pi zero doesn't support 5Ghz
 4. Then go to **'Services'** at the top and enable SSH, check 'Use password authentication'. Now hit **'Save'**, then **'Yes'**
 5. Once this is finished insert the SD card into your Pi and plug it into power. Wait a few minutes for the Pi to do its first time boot stuff and connect to your network.
-7. Open Putty enter the device name you put in during setup into the **'Host Name'** field **BUT** add .local to the end (myfacetracker.local). If this does not work you may need to check your router's DHCP leases and find the IP address your pi was given. The prompt for your username and password may or may not show up. Either way just type in your username, hit enter, then your password, hit enter. These are the ones you put in during setup
-8. Once you are in run the below command. This will execute a script, automatically installing the necessary software
-   ```
-   curl -s https://raw.githubusercontent.com/Granther/facetracker-pi/master/scripts/install.sh | sudo bash
-   ```
-   This script will take between 10-15 mins to run, the package for picamera2 is pretty large 
-9. Now, go to your browser at either the ip address or .local name you used **BUT** on port 8000. Make sure you are using **http** and **NOT https** as most browsers will default to https. Like so:
-   ```
-   http://myfacetracker.local:8000
-   # OR
-   http://192.168.1.20:8000
-   ```
-10. You should see a webpage with the video feed from the camera. Right click on the image on the website and copy the image link, open Babble paste this into the camera field. You should see the video feed show up in babble 
-   ```
-   http://myfacetracker.local:8000/stream.mjpg
-   # OR
-   http://192.168.1.20:8000/stream.mjpg
-   ```
-11. Integrate with VRChat. Project Babble has a great document on this: [Document](https://docs.babble.diy/docs/software/integrations/vrc)
-12. Done! Go stick your tongue at people!
+6. Open Putty enter the device name you put in during setup into the **'Host Name'** field **BUT** add .local to the end (myfacetracker.local). If this does not work you may need to check your router's DHCP leases and find the IP address your pi was given. The prompt for your username and password may or may not show up. Either way just type in your username, hit enter, then your password, hit enter. These are the ones you put in during setup
+7. Once you are in run the below command. This will execute a script, automatically installing the necessary software
+  This script will take between 10-15 mins to run, the package for picamera2 is pretty large 
+  ```
+  curl -s https://raw.githubusercontent.com/Granther/facetracker-pi/master/scripts/install.sh | sudo bash
+  ```
+8. Now, go to your browser at either the ip address or .local name you used **BUT** on port 8000. Make sure you are using **http** and **NOT https** as most browsers will default to https. Like so:
+  ```
+  http://myfacetracker.local:8000
+  # OR
+  http://192.168.1.20:8000
+  ```
+9. You should see a webpage with the video feed from the camera. Right click on the image on the website and copy the image link, open Babble paste this into the camera field. You should see the video feed show up in babble 
+ ```
+ http://myfacetracker.local:8000/stream.mjpg
+ # OR
+ http://192.168.1.20:8000/stream.mjpg
+ ```
+10. Integrate with VRChat. Project Babble has a great document on this: [Document](https://docs.babble.diy/docs/software/integrations/vrc)
+11. Done! Go stick your tongue at people!
 ### Hardware 
 I used all open & free 3D printable files for my build. I'll leave the Thingiverse links here
 * [camera arm](https://www.thingiverse.com/thing:5212459)
