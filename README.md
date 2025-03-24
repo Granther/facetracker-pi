@@ -3,21 +3,21 @@
 <br />
 <h2 align="center">(Lower) Facetracker Pi</h2>
   <p align="center">
-    Raspberry Pi Zero 2W + Camera = VR mouth tracker
+    Raspberry Pi Zero 2W + Camera = Wireless VR mouth tracker
     <br />
   </p>
 </div>
 
 ## About The Project
 Instructions & Code for a DIY VR face tracker compatible with VRChat. At its core this is a solution for streaming a low-latency video feed to your PC
-* *Why a Raspberry pi and not a microcontroller?* Its what I had laying around and its cheap, only $15
+* *Why a Raspberry pi and not a microcontroller?* Its what I had laying around and its cheap, only $15 depending on where you buy
 * *Will this work with other games?* Yes, it should work with anything Project Babble works for
 * *Do I need to know how to code to do this?* No, you don't have to touch any code for this to work
 
 ## Getting Started
 ### Prerequisites
-* Raspberry pi zero 2W (Or another single board computer, your milage may vary with others)
-* Compatible raspberry pi camera. As long as the camera says its compatible with the Pi Zero you should be good. This is the only one I have tested with [amz](https://a.co/d/4X2RNOo)
+* Raspberry pi zero 2W (Or another single board computer, your milage may vary with others). You can buy one [here](https://a.co/d/gEosdm0) & many other places
+* Compatible raspberry pi camera. As long as the camera says its compatible with the Pi Zero you should be good. This is the only one I have tested [here](https://a.co/d/4X2RNOo)
 * 4Gig+ Micro SD card
 * Way to mount this getup to your VR headset, ideally with 3D printed parts
 * Some imagination, this won't be perfect
@@ -61,7 +61,7 @@ I used all open & free 3D printable files for my build. I'll leave the Thingiver
 * *When I go to the facetracker's website it says its unsafe* --- This is safe to hit accept. Its your raspberry pi and you trust it. It cannot use HTTPS because Project Babble is not compatible
 
 ### Contact
-I highly encourage you to do your own troubleshooting before contacting me for help :)
+I highly encourage you to do your own troubleshooting before contacting me for help :)<br />
 Discord: granther
 
 [kofi-shield]: https://img.shields.io/badge/-KoFi-black.svg?style=for-the-badge&logo=kofi&colorB=555
