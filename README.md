@@ -1,14 +1,12 @@
-# (Lower) Facetracker Pi 
-Raspberry Pi Zero 2W + Camera = VR mouth tracker
 <a id="readme-top"></a>
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Ko-Fi][kofi-shield]][kofi-url]
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">(Lower) Facetracker Pi</h3>
 
   <p align="center">
     project_description
@@ -209,8 +207,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=kofi&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[kofi-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=kofi&colorB=555
+[kofi-url]: https://ko-fi.com/granther 
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
